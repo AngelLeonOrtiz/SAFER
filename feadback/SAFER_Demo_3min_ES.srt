@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:05,950
+Conozcan a Don Mateo, un agricultor en Honduras que lleva 20 años sembrando solo maíz en su parcela.
+
+2
+00:00:06,250 --> 00:00:13,190
+Al principio sacaba buenas mazorcas. Con los años, la milpa se hizo pequeña, amarilla y llena de plagas.
+
+3
+00:00:13,490 --> 00:00:16,490
+Cada temporada gastaba más en fertilizantes y pesticidas pensando: «Ni modo, la tierra ya se cansó…»
+
+4
+00:00:16,790 --> 00:00:24,780
+Un agrónomo le dijo: «Si usted come lo mismo todos los días, se enferma. Su tierra no está cansada: está aburrida.»
+
+5
+00:00:25,080 --> 00:00:33,120
+Hoy el reto es mayor: con lluvias irregulares y sequías más fuertes, no saben qué rotación aguanta el clima real de su finca.
+
+6
+00:00:33,420 --> 00:00:38,120
+Por eso creamos SAFER: Agricultura Asistida por Satélites para la Resiliencia de la Tierra.
+
+7
+00:00:38,420 --> 00:00:48,330
+Una herramienta web que convierte datos satelitales de la NASA, suelo y prioridades en un plan de rotación en segundos, sin saber de SIG.
+
+8
+00:00:48,630 --> 00:00:57,250
+Veamos SAFER en acción. Primero cargamos una parcela real en Honduras, Finca 1, o dibujamos un terreno en el mapa.
+
+9
+00:00:57,550 --> 00:01:04,030
+Podemos activar capas satelitales de NASA GIBS en vivo, como verdor de vegetación (NDVI) y lluvia (IMERG).
+
+10
+00:01:04,330 --> 00:01:13,760
+Luego ejecutamos el análisis. SAFER consulta NASA POWER para ver lluvia anual, meses secos, lluvia diaria y riesgo hídrico.
+
+11
+00:01:14,060 --> 00:01:21,140
+También consulta escenas Sentinel-2 vía NASA CMR STAC y evalúa el riesgo de plagas para el cultivo actual.
+
+12
+00:01:21,440 --> 00:01:29,290
+Ajustamos el suelo y cinco prioridades: agua, salud del suelo, control de plagas, economía y resiliencia climática.
+
+13
+00:01:29,590 --> 00:01:37,560
+Nuestro motor multi-criterio prohíbe repetir familias botánicas seguidas y recomienda el Top 3 de rotaciones a 3 ciclos.
+
+14
+00:01:37,860 --> 00:01:45,680
+En el simulador What-If comparamos el monocultivo frente a la Rotación #1 ante Sequía Severa (-25%) y Ola de Calor (+2°C).
+
+15
+00:01:45,980 --> 00:01:52,200
+Finalmente, nuestro Gemelo Digital 3D muestra la finca usando el relieve real de elevación NASA/SRTM.
+
+16
+00:01:52,500 --> 00:02:01,310
+El agricultor alterna entre monocultivo y su plan de rotación, y prueba desastres naturales: inundación, deslizamiento o sequía extrema.
+
+17
+00:02:01,610 --> 00:02:11,260
+Para ser transparentes: las parcelas, clima NASA POWER, relieve SRTM, escenas STAC, capas GIBS y SoilGrids son datos reales en vivo.
+
+18
+00:02:11,560 --> 00:02:18,980
+Lo que SAFER modela son las reglas agronómicas de rotación, las proyecciones What-If y la simulación 3D de cultivos y desastres.
+
+19
+00:02:19,280 --> 00:02:26,000
+Nuestro siguiente paso es validar en campo con cooperativas locales e sumar historial multi-año y alertas tempranas.
+
+20
+00:02:26,300 --> 00:02:38,470
+A Don Mateo le tomó años aprender a cuidar su tierra. Con SAFER, cualquier productor decide en minutos. ¡Gracias!
